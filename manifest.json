@@ -1,0 +1,16 @@
+{
+  "name": "Jira Bug Template",
+  "description": "Insert Bug template into jira",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+	    "persistent": false
+	  },
+	  "browser_action": {
+	    "default_title": "Insert"
+	  },
+	  "manifest_version": 2
+}
